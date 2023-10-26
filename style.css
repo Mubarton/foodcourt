@@ -7,6 +7,12 @@ header {
     background-color: aqua;
 }
 
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 table, tr, td, th {
     border: 1px solid black;
     text-align: center;
@@ -17,7 +23,7 @@ table, tr, td, th {
 
 h1 {
     text-align: center;
-    padding-top: 30px;
+    padding: 10px;
 }
 
 h2 {
